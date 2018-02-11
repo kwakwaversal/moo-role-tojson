@@ -1,0 +1,7 @@
+/Moo-Role-ToJSON-*
+/.build
+/_build*
+/Build
+MYMETA.*
+!META.json
+/.prove

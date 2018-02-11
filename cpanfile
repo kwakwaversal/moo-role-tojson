@@ -1,7 +1,8 @@
 requires 'perl', '5.008005';
 
-# requires 'Some::Module', 'VERSION';
+requires 'Moo::Role';
+requires 'Type::Tiny';
 
 on test => sub {
-    requires 'Test::More', '0.96';
+    requires 'Test2::Suite';
 };

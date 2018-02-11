@@ -108,6 +108,8 @@ L<Moo::Role::ToJSON> implements the following methods.
 
 =head2 _build_serializable_attributes
 
+    sub _build_serializable_attributes { [qw/message secret/] }
+
 The builder method returning the list of attributes to serialize. This method
 must return an C<ARRAY> reference.
 

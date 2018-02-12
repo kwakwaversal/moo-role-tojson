@@ -124,6 +124,10 @@ Returns a C<HASH> reference representing your object. This is intended to be
 used by any C<encode_json> function that checks for the availability of the
 C<TO_JSON> method for blessed objects.
 
+=head2 EXAMPLES
+
+See C<t/complete.t> for a complete example.
+
 =head1 AUTHOR
 
 Paul Williams E<lt>kwakwa@cpan.orgE<gt>

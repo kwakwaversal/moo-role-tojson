@@ -52,7 +52,7 @@ in your classes can be directly encoded into `JSON`.
 
 ## serializable\_attributes
 
-    # optionally override serialized columns on instantiation
+    # optionally override serialized attributes on instantiation
     my $message = My::Message->new(
         serializable_attributes => [qw/feel_like_sharing message secret/]
     );
@@ -88,6 +88,10 @@ must return an `ARRAY` reference.
 Returns a `HASH` reference representing your object. This is intended to be
 used by any `encode_json` function that checks for the availability of the
 `TO_JSON` method for blessed objects.
+
+## EXAMPLES
+
+See `t/complete.t` for a complete example.
 
 # AUTHOR
 

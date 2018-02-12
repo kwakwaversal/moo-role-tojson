@@ -87,7 +87,7 @@ L<Moo::Role::ToJSON> implements the following attributes.
 
 =head2 serializable_attributes
 
-    # optionally override serialized columns on instantiation
+    # optionally override serialized attributes on instantiation
     my $message = My::Message->new(
         serializable_attributes => [qw/feel_like_sharing message secret/]
     );

@@ -5,7 +5,7 @@ use Moo::Role;
 
 # ABSTRACT: a Moo role for a TO_JSON method
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 has serializable_attributes => (
     is  => 'lazy',
